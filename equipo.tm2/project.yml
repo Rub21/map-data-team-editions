@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: ruben.377a72b7
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -74.2366
+  - -13.1639
+  - 14
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 15
+minzoom: 2
+name: Mapbox-data-team-editions
+source: "mapbox:///mapbox.satellite,ruben.feec60bd"
+styles: 
+  - style.mss
+template: ''

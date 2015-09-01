@@ -9,14 +9,14 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 133.5278
-  - 39.6649
-  - 6
+  - 138.1091
+  - 36.0558
+  - 8
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
-maxzoom: 22
+maxzoom: 18
 minzoom: 0
 name: Age POIS Japan
 source: "mapbox:///mapbox.satellite,mapbox.mapbox-streets-v5,ruben.nodepoisjapan,ruben.waypoisjapan"

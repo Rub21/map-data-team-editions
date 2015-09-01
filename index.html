@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>POI age map</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+
+<style>
+.legend label,
+.legend span {
+  display:block;
+  float:left;
+  height:20px;
+  width:50%;
+  text-align:center;
+  font-size:9px;
+  color:#808080;
+  }
+</style>
+
+<div id='legend' style='display:none;'>
+  <strong>Legend - POI age</strong>
+  <nav class='legend clearfix'>
+    <span style='background:#edf8e9;'>2010</span>
+    <span style='background:#c7e9c0;'>2011</span>
+    <span style='background:#a1d99b;'>2012</span>
+    <span style='background:#74c476;'>2013</span>
+    <span style='background:#31a354;'>2014</span>
+    <span style='background:#006d2c;'>2015</span>
+    <br>
+    <br>
+    <br>
+</div>
+<div id='map' class='dark'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoicnViZW4iLCJhIjoiYlBrdkpRWSJ9.JgDDxJkvDn3us36aGzR6vg';
+  var map = L.mapbox.map('map', 'ruben.137cb812');
+  map.legendControl.addLegend(document.getElementById('legend').innerHTML);
+</script>
+
+
+</body>
+</html>
+

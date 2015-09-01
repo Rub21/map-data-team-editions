@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" background-color="#000000">
+
+<Parameters>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">-93.9551,32.1384,4</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">19</Parameter>
+  <Parameter name="minzoom">2</Parameter>
+  <Parameter name="name"><![CDATA[data-team-editions]]></Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///ruben.feec60bd]]></Parameter>
+</Parameters>
+
+
+<Style name="data" filter-mode="first">
+  <Rule>
+    <Filter>([osmuser] = 'aarthy')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#666699" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'pratikyadav')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#9cf288" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'jinalfoflia')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#ff6a6a" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'Nikhil Prabhakar U')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#ff8a00" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'ramyaragupathy')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#996633" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'karitotp')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#c94ec0" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'Chetan_Gowda')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#336699" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'ruthmaben')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#fa58f4" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'samely')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#ed5a8c" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'calfarome')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#800000" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'abel801')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#008000" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'shvrm')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#fcabf4" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'dannykath')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#662289" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'RichRico')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#ee3344" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'Aaron Lidman')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#330066" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'srividya_cn')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#7b68ee" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'Luis36995')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#00ff00" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'lxbarth')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#333366" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'geohacker')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#666600" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'andygol')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#330066" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'PlaneMad')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#adff2f" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'ediyes')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#ffff00" />
+  </Rule>
+  <Rule>
+    <Filter>([osmuser] = 'Rub21')</Filter>
+    <LineSymbolizer stroke-width="1" stroke="#0171c5" />
+  </Rule>
+  <Rule>
+    <LineSymbolizer stroke="#07ff6c" />
+  </Rule>
+</Style>
+<Layer name="data"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>data</StyleName>  </Layer>
+
+</Map>

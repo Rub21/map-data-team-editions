@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: ''
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -66.0663
+  - 17.9616
+  - 16
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 22
+minzoom: 12
+name: ''
+source: "mapbox:///enf.tiger2015,enf.tiger2014"
+styles: 
+  - style.mss
+template: ''

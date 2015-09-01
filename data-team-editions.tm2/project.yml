@@ -1,0 +1,25 @@
+_prefs: 
+  mapid: ruben.3105ad05
+  saveCenter: true
+_properties: {}
+attribution: ''
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -93.9551
+  - 32.1384
+  - 4
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 19
+minzoom: 2
+name: data-team-editions
+source: "mapbox:///ruben.feec60bd"
+styles: 
+  - style.mss
+template: ''
